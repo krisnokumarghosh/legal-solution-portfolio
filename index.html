@@ -6,6 +6,32 @@
  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <title>Legal-Solution</title>
+
+
+    <style>
+      .cards img{
+        margin: 0 auto;
+        margin-top: 56px;
+      }
+      .cards p{
+        text-align: center;
+        margin-top: 32px;
+      }
+      .selective{
+        border-bottom: 1px solid #E7E7E7;
+      }
+      .selective-2 {
+        border-right: 1px solid #E7E7E7;
+        border-left: 1px solid #E7E7E7;
+      }
+      .criminal{
+        border: 1px solid #E7E7E7;
+        background: linear-gradient( to bottom, #E7E7E7 0%, #ffffff 65%);
+        
+      }
+    </style>
+
+
 </head>
 <body>
     <header>
@@ -31,7 +57,7 @@
           </div>
         </nav>
        <!-- banner section -->
-        <section class="my-0 mx-auto mt-14 max-w-[1170px] h-[550px]  border rounded-lg bg-[url(images/banner.png)] mb-[120px]">
+        <section class="my-0 mx-auto mt-14 max-w-[1170px] h-[550px]  border rounded-lg bg-[url('/images/banner.png')] mb-[120px]">
            <div class="text-center max-w-[692px] h-[342px] my-[104px] mx-auto ">
 
            <div>
@@ -45,6 +71,70 @@
            </div>
 
            </div>
+        </section>
+
+        <section class="max-w-[1170px] h-[998px]  my-0 mx-auto">
+             <div >
+                 <!-- card heading -->
+                <div class="text-center">
+                <p class="font-extrabold text-[40px] text-[#414040] mb-6">The Legal Practice Area</p>
+                <p class="mb-16 text-[#414040] leading-[26px]">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
+             </div>
+              <!-- cards  -->
+             <div class="cards grid grid-cols-3 my-0 mx-auto">
+
+              <div class="selective business  h-[499px] w-[401px]">
+                <img src="images/business.png" alt="">
+
+                <p class="font-extrabold text-[32px] text-[#414040]">Business Law</p>
+
+                <p class="text-[#707070] leading-[26px] w-[258px] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img src="images/Frame.png" alt="">
+              </div>
+              <div class="criminal h-[499px] w-[401px] ">
+                <img src="images/criminal.png" alt="">
+
+                <p class="font-extrabold text-[32px] text-[#414040]">Criminal Law</p>
+
+                <p class="text-[#707070] leading-[26px] w-[258px] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img src="images/Frame.png" alt="">
+              </div>
+              <div class="selective h-[499px] w-[401px]"">
+                <img src="images/child.png" alt="">
+
+                <p class="font-extrabold text-[32px] text-[#414040]">Child Support</p>
+
+                <p class="text-[#707070] leading-[26px] w-[258px] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img src="images/Frame.png" alt="">
+              </div>
+              <div class=" h-[499px] w-[401px]"">
+                <img src="images/education.png" alt="">
+
+                <p class="font-extrabold text-[32px] text-[#414040]">Education Law</p>
+
+                <p class="text-[#707070] leading-[26px] w-[258px] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img src="images/Frame.png" alt="">
+              </div>
+              <div class="selective-2 h-[499px] w-[401px]"">
+                <img src="images/divorce.png" alt="">
+
+                <p class="font-extrabold text-[32px] text-[#414040]">Divorce Law</p>
+
+                <p class="text-[#707070] leading-[26px] w-[258px] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img src="images/Frame.png" alt="">
+              </div>
+              <div class=" h-[499px] w-[401px]"">
+                <img src="images/tax.png" alt="">
+
+                <p class="font-extrabold text-[32px] text-[#414040]">Tax Law</p>
+
+                <p class="text-[#707070] leading-[26px] w-[258px] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img src="images/Frame.png" alt="">
+              </div>
+
+             </div>
+
+             </div>
         </section>
     </header>
 </body>
