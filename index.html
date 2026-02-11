@@ -73,6 +73,13 @@
         width: 570px;
         /* height: 100px; */
       }
+      .btm{
+        border-bottom: 1px solid #7070704b;
+      }
+      .rit{
+        border-right: 1px solid #7070704b;
+      }
+      
     </style>
 
 
@@ -240,44 +247,48 @@
          </section>
 
          <!-- contact us section -->
-          <section class="container mx-auto border-2 mb-[100px] space-y-16">
+          <section class="container mx-auto  mb-[100px] space-y-16">
             <!-- contact head -->
             <div class="space-y-6 text-center ">
               <h1 class="font-extrabold text-[40px] text-[#414040]">Contact With Us</h1>
               <p class="text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
             </div>
           <!-- contact bottom -->
-            <div class="grid grid-cols-2">
+            <div class="grid md:grid-cols-2 gap-[50px] ">
               <!-- cards -->
               <div class="grid grid-cols-2  bg-[#cfcfcf7a]">
                 
-                 <div class="p-[50px] border-b border-r text-center">
+                 <div class="p-[50px] btm rit  text-center space-y-2.5">
                   <img src="./images/location.png" alt="" class="mx-auto">
                   <h3 class="font-extrabold text-[24px] text-[#414040]">Address</h3>
                   <p class="text-[#707070]">A108 Adam Street, <br>New York, NY 535022</p>
                  </div>
-                 <div class="p-[50px] border-b border-l text-center">
-                  <img src="./images/location.png" alt="" class="mx-auto">
-                  <h3 class="font-extrabold text-[24px] text-[#414040]">Address</h3>
-                  <p class="text-[#707070]">A108 Adam Street, <br>New York, NY 535022</p>
+                 <div class="p-[50px] btm  text-center space-y-2.5">
+                  <img src="./images/call.png" alt="" class="mx-auto">
+                  <h3 class="font-extrabold text-[24px] text-[#414040]">Call Us</h3>
+                  <p class="text-[#707070]">+88 01750 00 00 00 <br>+88 01750 00 00 00</p>
                  </div>
-                 <div class="p-[50px] border-t border-r text-center">
-                  <img src="./images/location.png" alt="" class="mx-auto">
-                  <h3 class="font-extrabold text-[24px] text-[#414040]">Address</h3>
-                  <p class="text-[#707070]">A108 Adam Street, <br>New York, NY 535022</p>
+                 <div class="p-[50px] rit  text-center space-y-2.5">
+                  <img src="./images/email.png" alt="" class="mx-auto">
+                  <h3 class="font-extrabold text-[24px] text-[#414040]">Email Us</h3>
+                  <p class="text-[#707070]">info@gmail.com <br>info@gmail.com</p>
                  </div>
-                 <div class="p-[50px] border-t border-l text-center">
-                  <img src="./images/location.png" alt="" class="mx-auto">
-                  <h3 class="font-extrabold text-[24px] text-[#414040]">Address</h3>
-                  <p class="text-[#707070]">A108 Adam Street, <br>New York, NY 535022</p>
+                 <div class="p-[50px]   text-center space-y-2.5">
+                  <img src="./images/time.png" alt="" class="mx-auto">
+                  <h3 class="font-extrabold text-[24px] text-[#414040]">Working Hours</h3>
+                  <p class="text-[#707070]">Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
                  </div>
 
               </div>
 
               <!-- inputs -->
 
-              <div>
-
+              <div class="grid grid-cols-1 gap-[30px]">
+                <input type="text" placeholder="Your Name" class="bg-[#F3F3F3] rounded-lg max-w-[570px] pl-5 text-[#707070]">
+                <input type="email" placeholder="Your Email" class="bg-[#F3F3F3] rounded-lg max-w-[570px] pl-5 text-[#707070]">
+                <input type="text" placeholder="Subject" class="bg-[#F3F3F3] rounded-lg max-w-[570px] pl-5 text-[#707070]">
+                <input type="text" placeholder="Your Message" class="bg-[#F3F3F3] rounded-lg max-w-[570px] pl-5 text-[#707070] ">
+                <button class="text-[20px] font-semibold text-[#ffffff] max-w-[570px] bg-[#B68C5A] rounded-lg">Send Message</button>
               </div>
 
             </div>
